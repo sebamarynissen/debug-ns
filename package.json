@@ -1,6 +1,6 @@
 {
   "name": "debug-ns",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A small wrapper around debug for usage with esm",
   "scripts": {
     "test": "set DEBUG=* && node test/debug-ns-test.js"
