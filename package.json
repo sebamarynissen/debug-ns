@@ -1,0 +1,29 @@
+{
+  "name": "debug-ns",
+  "version": "1.0.0",
+  "description": "A small wrapper around debug for usage with esm",
+  "scripts": {
+    "test": "set DEBUG=* && node test/debug-ns-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebamarynissen/debug-ns.git"
+  },
+  "keywords": [
+    "debug"
+  ],
+  "author": "Sebastiaan Marynissen <sebastiaan.marynissen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebamarynissen/debug-ns/issues"
+  },
+  "homepage": "https://github.com/sebamarynissen/debug-ns#readme",
+  "type": "module",
+  "exports": {
+    ".": "./debug.js",
+    "./?*": "./debug.js?*"
+  },
+  "dependencies": {
+    "debug": "^4.3.4"
+  }
+}
